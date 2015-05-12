@@ -1,7 +1,10 @@
 body{
 	background-color:#303334;
 	}
-			
+
+h4  {
+    font-family: "Times New Roman", Georgia, Serif;
+    }
 .location	{
 			height:50px;
 			text-transform:uppercase;
