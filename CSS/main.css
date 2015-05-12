@@ -121,10 +121,12 @@ aside 	{
 		}
 
 #left 	{
-		width:50%;
+		width:45%;
 		float:left;
+        margin-left: 1em;
 		}
 		
 blockquote 	{	
 			font-size:120%;
+            margin-top: 2em;
 			}
