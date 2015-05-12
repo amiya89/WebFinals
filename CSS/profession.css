@@ -1,0 +1,54 @@
+body{
+	background-color:#303334;
+	}
+			
+.location	{
+			height:50px;
+			text-transform:uppercase;
+			text-align:center;
+			font-size:11px;
+			vertical-align:middle
+			}
+			
+.weapons	{
+			position:absolute;left:-3px;width:470px
+			}
+.weapons .location	{
+					height:50px;
+					text-transform:uppercase;
+					text-align:center;
+					font-size:11px;
+					vertical-align:middle;
+					}
+
+.weapons .weapon		{
+					text-indent:-1000em;
+					overflow:hidden;
+					display:inline-block;
+					display:table-cell;
+					width:25%;
+					height:40px;
+					border:1px solid transparent;
+					background-repeat:no-repeat;
+					background-position:50% 50%
+					}
+					
+.weapons .axe{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/axe.703926591.png)}
+.weapons .dagger{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/dagger.723306229.png)}
+.weapons .mace{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/mace.1616098288.png)}
+.weapons .pistol{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/pistol.1046372310.png)}
+.weapons .scepter{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/scepter.1747446730.png)}
+.weapons .sword{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/sword.2810860392.png)}
+.weapons .focus{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/focus.511329932.png)}
+.weapons .shield{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/shield.2162425594.png)}
+.weapons .torch{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/torch.3660539327.png)}
+.weapons .warhorn{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/warhorn.101702783.png)}
+.weapons .greatsword{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/greatsword.469077118.png)}
+.weapons .hammer{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/hammer.2230034431.png)}
+.weapons .longbow{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/longbow.1371069260.png)}
+.weapons .rifle{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/rifle.3530169865.png)}
+.weapons .shortbow{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/shortbow.2758724353.png)}
+.weapons .staff{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/staff.2247864874.png)}
+.weapons .harpoon-gun{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/harpoon-gun.866430665.png)}
+.weapons .spear{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/spear.1154785070.png)}
+.weapons .trident{background-image:url(https://guildwars2.staticwars.com/wp-content/themes/guildwars2.com-live/img/professions/weapons/trident.88500477.png)}
