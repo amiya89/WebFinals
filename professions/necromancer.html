@@ -5,6 +5,7 @@
 <head>
 	<title> Guild Wars 2 </title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="../images/favicon.ico">
 	<link rel="stylesheet" href="../CSS/main.css">
 	<link rel="stylesheet" href="../CSS/profession.css">
@@ -35,6 +36,8 @@
 	<img href="images/spacer.png" id="spacer">
 	
 	<article>	
+        
+        
 		<div id="left">
 		<section>
 			<blockquote>Practitioners of the dark arts, necromancers summon the dead, wield the power of lost souls, and literally suck the life force from the enemy. Necromancers feed on life force, which they can use to bring allies back from the brink or cheat death itself. </blockquote>
@@ -58,7 +61,60 @@
             <h2>Wells</h2>
             <p>These persistent, stationary spells allow necromancers to control the area around them. Well of Blood, for example, regenerates all allies within range.</p>
 		</section>
-		
+            
+        <section>
+			<h3> Weapons </h3>
+            
+            <p> These are the only weapons available for the use of necromancers.</p>
+			<table class="weapons">
+				<thead>
+					<tr>
+						<th class="location">Main Hand</th>
+						<th class="location">Off Hand</th>
+						<th class="location">Two-Handed</th>
+						<th class="location">Aquatic</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td role="img" aria-label="Axe" class="weapon axe">
+							Axe            </td>
+						<td role="img" aria-label="Dagger" class="weapon dagger">
+							Dagger            </td>
+						<td role="img" aria-label="Staff" class="weapon staff">
+							Staff            </td>
+						<td role="img" aria-label="Spear" class="weapon spear">
+							Spear            </td>
+					</tr>
+					<tr>
+						<td role="img" aria-label="Dagger" class="weapon dagger">
+							Dagger            </td>
+						<td role="img" aria-label="Focus" class="weapon focus">
+							Focus            </td>
+						<td role="img" aria-label="" class="weapon">
+                            </td>
+						<td role="img" aria-label="Trident" class="weapon trident">
+							Trident            </td>
+					</tr>
+					<tr>
+						<td role="img" aria-label="Scepter" class="weapon scepter">
+							Scepter            </td>
+						<td role="img" aria-label="Warhorn" class="weapon warhorn">
+							Warhorn            </td>
+						<td role="img" aria-label="" class="weapon">
+                            </td>
+						<td role="img" aria-label="" class="weapon">
+                            </td>
+					</tr>
+				</tbody>
+			</table>    
+		</section>
+            
+        <h2>Guide for Beginners</h2>
+        <p>A necromancer is an interesting character to play, namely because the play style of a necromancer depends very strongly on summoning creatures to fight at your side. It's not so much as direct attacks or even spike damage, but rather using cooldown to complete effect to make sure there is at least one of your undead minions at your side.</p>
+            
+        
+        
 		</div>
 		
 		<aside>
@@ -70,16 +126,34 @@
 		<iframe width="90%" height="315" src="https://www.youtube.com/embed/OQ4KdhMGTFU" frameborder="0" allowfullscreen></iframe>
 		</aside>
 		
-		
+        
 
 	</article>
-	
+	<div class="form-style-8">
+            <h2>Contact me</h2>
+            <form>
+                <input type="text" name="field1" placeholder="Full Name" />
+                <input type="email" name="field2" placeholder="Email" />
+                <input type="url" name="field3" placeholder="Website" />
+                <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+                <input type="button" value="Send Message" />
+            </form>
+    </div>
+    
 	
 	<img href="images/spacer.png" id="spacer2">
 	<footer>
 	<span>Developed By <a href="https://twitter.com/OrghoN" target="_blank">Orgho Anoyonyo Neogi</a></span>
 	</footer>
 	
+    <!--Alll scripts go here-->
+    <script type="text/javascript">
+        //auto expand textarea
+        function adjust_textarea(h) {
+                                    h.style.height = "20px";
+                                    h.style.height = (h.scrollHeight)+"px";
+                                    }
+    </script>
 </body>
 
 </html>
